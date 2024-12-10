@@ -1,0 +1,40 @@
+﻿<Window x:Class="MyEpicMessage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyEpicMessage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="/Cute-Cat-Images-07756-324489830.jpg" Stretch="Fill"/>
+
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Label FontSize="64" Content="Я н***я не сделал."/>
+            <Label HorizontalContentAlignment="Center"
+                   FontSize="32"
+                   FontWeight="Bold">
+                <Label.Content>
+                    Наведитесь на этот текст
+                </Label.Content>
+                <Label.ToolTip>
+                    <ToolTip>
+                        <TreeView>
+                            <TextBox>Я ЗАСУНУЛ</TextBox>
+                            <TreeViewItem Header="TreeView" IsExpanded="True">
+                                <TreeViewItem Header="В tooltip!!!" />
+                            </TreeViewItem>
+                            <TreeViewItem Header="Я сбежал" IsExpanded="True">
+                                <TreeViewItem Header="Из псих диспансера" IsExpanded="True">
+                                    <TreeViewItem Header="Чисто ради этого." />
+                                </TreeViewItem>
+                            </TreeViewItem>
+                        </TreeView>
+                    </ToolTip>
+                </Label.ToolTip>
+            </Label>
+        </StackPanel>
+    </Grid>
+</Window>
