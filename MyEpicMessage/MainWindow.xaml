@@ -22,13 +22,13 @@
                 <Label.ToolTip>
                     <ToolTip>
                         <TreeView>
-                            <TextBox>Я ЗАСУНУЛ</TextBox>
+                            <TextBox>Я засунул</TextBox>
                             <TreeViewItem Header="TreeView" IsExpanded="True">
-                                <TreeViewItem Header="В tooltip!!!" />
+                                <TreeViewItem Header="в tooltip." />
                             </TreeViewItem>
                             <TreeViewItem Header="Я сбежал" IsExpanded="True">
-                                <TreeViewItem Header="Из псих диспансера" IsExpanded="True">
-                                    <TreeViewItem Header="Чисто ради этого." />
+                                <TreeViewItem Header="из псих диспансера" IsExpanded="True">
+                                    <TreeViewItem Header="только ради этого." />
                                 </TreeViewItem>
                             </TreeViewItem>
                         </TreeView>
